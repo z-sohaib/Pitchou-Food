@@ -1,3 +1,8 @@
+This is a small project based on a full react tutorial with some of my touches (gonna add more touches by the time)
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
