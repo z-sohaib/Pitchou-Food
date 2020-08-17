@@ -1,25 +1,25 @@
 export const DISHES = [
   {
     id: 0,
-    name: "Uthappizza",
+    name: "Pizza Napoletana",
     image: "/assets/images/uthappizza.png",
     category: "mains",
     label: "Hot",
     price: "4.99",
     featured: true,
     description:
-      "A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.",
+      "It is a style of pizza made with tomatoes and mozzarella cheese. It must be made with either San Marzano tomatoes or Pomodorino del Piennolo del Vesuvio, which grow on the volcanic plains to the south of Mount Vesuvius, and Mozzarella di Bufala Campana, a protected designation of origin cheese made with the milk from water buffalo raised in the marshlands of Campania and Lazio in a semi-wild state, or “Fior di Latte di Agerola”, a cow milk mozzarella made exclusively in the Agerola comune.",
   },
   {
     id: 1,
-    name: "Zucchipakoda",
+    name: "Lasagna",
     image: "/assets/images/zucchipakoda.png",
     category: "appetizer",
     label: "",
     price: "1.99",
     featured: false,
     description:
-      "Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce",
+      "Lasagne, or the singular lasagna, is also an Italian dish made of stacked layers of this flat pasta alternating with fillings such as ragù (ground meats and tomato sauce) and other vegetables, cheese (which may include ricotta and parmesan), and seasonings and spices such as garlic, oregano and basil.",
   },
   {
     id: 2,

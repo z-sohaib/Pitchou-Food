@@ -26,18 +26,18 @@ function Footer(props) {
           <div className="col-7 col-sm-5">
             <h5>Our Address</h5>
             <address>
-              121, Clear Water Bay Road
+              Ain El Kebir Quarter, Door N°15
               <br />
-              Clear Water Bay, Kowloon
+              Medea Center, Medea
               <br />
-              HONG KONG
+              ALGERIA
               <br />
-              <i className="fa fa-phone fa-lg"></i>: +852 1234 5678
+              <i className="fa fa-phone fa-lg"></i>: +213 777 087 766
               <br />
-              <i className="fa fa-fax fa-lg"></i>: +852 8765 4321
+              <i className="fa fa-fax fa-lg"></i>: +213 555 119 030
               <br />
               <i className="fa fa-envelope fa-lg"></i>:{" "}
-              <a href="mailto:confusion@food.net">confusion@food.net</a>
+              <a href="mailto:pitchou@food.net">pitchou@food.net</a>
             </address>
           </div>
           <div className="col-12 col-sm-4 align-self-center">
@@ -80,7 +80,7 @@ function Footer(props) {
         </div>
         <div className="row justify-content-center">
           <div className="col-auto">
-            <p>© Copyright 2018 Ristorante Con Fusion</p>
+            <p>© Copyright 2020 Pitchou Food</p>
           </div>
         </div>
       </div>

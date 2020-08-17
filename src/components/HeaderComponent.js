@@ -91,7 +91,7 @@ export default class Header extends Component {
               </Nav>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <Button outline onClick={this.toggleModal}>
+                  <Button outline color="light" onClick={this.toggleModal}>
                     <span className="fa fa-sign-in fa-lg">Login</span>
                   </Button>
                 </NavItem>
@@ -103,7 +103,7 @@ export default class Header extends Component {
           <div className="container">
             <div className="row row-header">
               <div className="col-12 col-sm-6">
-                <h1>Ristorante Con Fusion</h1>
+                <h1>Pitchou Food</h1>
                 <p>
                   We take inspiration from the World's best cuisines, and create
                   a unique fusion experience. Our lipsmacking creations will
