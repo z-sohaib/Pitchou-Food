@@ -12,9 +12,9 @@ import {
   ModalHeader,
   ModalBody,
   Form,
-  Label,
-  Input,
   FormGroup,
+  Input,
+  Label,
 } from "reactstrap";
 import { NavLink } from "react-router-dom";
 
@@ -40,17 +40,12 @@ export default class Header extends Component {
     this.setState({ isModalOpen: !this.state.isModalOpen });
   }
 
-  handleLogin(event) {
+  handleLogin(evt) {
     this.toggleModal();
-    alert(
-      "Username: " +
-        this.username.value +
-        " Password: " +
-        this.password.value +
-        " Remember: " +
-        this.remember.checked
-    );
-    event.preventDefault();
+
+    alert(this.username.value + " " + this.password.value);
+
+    evt.preventDefault();
   }
 
   render() {
@@ -97,7 +92,7 @@ export default class Header extends Component {
               <Nav className="ml-auto" navbar>
                 <NavItem>
                   <Button outline onClick={this.toggleModal}>
-                    <span className="fa fa-sign-in fa-lg"></span> Login
+                    <span className="fa fa-sign-in fa-lg">Login</span>
                   </Button>
                 </NavItem>
               </Nav>
@@ -109,17 +104,13 @@ export default class Header extends Component {
             <div className="row row-header">
               <div className="col-12 col-sm-6">
                 <h1>Ristorante Con Fusion</h1>
-                <p>
-                  We take inspiration from the world's best cuisines, and create
-                  a unique fusion experience. Our lipsmacking creations will
-                  tickle your culinary senses
-                </p>
+                <p>We take inspiration from the world's jlsfjldsjfljldsjllj</p>
               </div>
             </div>
           </div>
         </Jumbotron>
         <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
-          <ModalHeader toggle={this.toggleModal}>Login</ModalHeader>
+          <ModalHeader toggle={this.toggleModal}> Login</ModalHeader>
           <ModalBody>
             <Form onSubmit={this.handleLogin}>
               <FormGroup>
@@ -131,6 +122,7 @@ export default class Header extends Component {
                   innerRef={(input) => (this.username = input)}
                 />
               </FormGroup>
+
               <FormGroup>
                 <Label htmlFor="password">Password</Label>
                 <Input
@@ -140,6 +132,7 @@ export default class Header extends Component {
                   innerRef={(input) => (this.password = input)}
                 />
               </FormGroup>
+
               <FormGroup check>
                 <Label check>
                   <Input
